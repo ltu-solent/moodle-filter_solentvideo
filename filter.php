@@ -51,7 +51,9 @@ defined('MOODLE_INTERNAL') || die();
 // }
 
 //GeoIP Location
-include($CFG->libdir.'/geoipVid/geoip.inc');
+//include($CFG->libdir.'/geoipVid/geoip.inc');
+include($CFG->dirroot.'/filter/solentvideo/geoip/geoip.inc');
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
